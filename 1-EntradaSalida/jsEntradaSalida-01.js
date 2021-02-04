@@ -6,3 +6,4 @@ function mostrar()
 	alert("Esto funciona de maravilla");
 }
 
+// Bogado Jorge Rodrigo

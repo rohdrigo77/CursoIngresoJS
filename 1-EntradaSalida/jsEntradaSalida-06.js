@@ -5,13 +5,21 @@ mostrar el resulto por medio de "ALERT"*/
 function sumar()
 {
 
-	let num1 = document.getElementById("txtIdNumeroUno").value;
-	num1 = parseInt(num1);
-	let num2 = document.getElementById("txtIdNumeroDos").value;
-	num2 = parseInt(num2);
-	let suma;
+	let numeroUno; 
+	let numeroDos; 
+	let resultadoSuma;
+
+	numeroUno = document.getElementById("txtIdNumeroUno").value;
+	numeroDos = document.getElementById("txtIdNumeroDos").value;
+
+	numeroUno = parseInt(numeroUno);
+	numeroDos = parseInt(numeroDos);
+
+	resultadoSuma = numeroUno + numeroDos;
+
+	mensaje = "la suma es de " + resultadoSuma;
 	
-    suma = num1 + num2;
-	alert("la suma es de " + suma);
+	alert(mensaje);
 }
 
+// Bogado Jorge Rodrigo

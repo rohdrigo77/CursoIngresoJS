@@ -7,3 +7,4 @@ function mostrar()
 	alert("Su nombre es: " +ejercicio2);
 }
 
+// Bogado Jorge Rodrigo
