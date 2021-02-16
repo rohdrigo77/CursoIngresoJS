@@ -12,8 +12,26 @@ function mostrar()
 	multiplicacionNegativos=1;
 	respuesta='si';
 
+	while(respuesta == "si")
+	{
+	contador=contador+1
+    numeroIngresado=prompt("Ingrese numero #" + contador);
+	numeroIngresado=parseInt(numeroIngresado);
+	if(numeroIngresado > 0)
+	{
+		sumaPositivos=sumaPositivos+numeroIngresado;	
+	}
+	else
+	{
+		multiplicacionNegativos=multiplicacionNegativos*numeroIngresado;
+	} 
+		respuesta=prompt("Desea seguir ingresando números? Escriba si o no:");
+	}
+
 
 	txtIdSuma.value=sumaPositivos;
 	txtIdProducto.value=multiplicacionNegativos;
 
 }//FIN DE LA FUNCIÓN
+
+// Bogado Jorge Rodrigo, Div E
